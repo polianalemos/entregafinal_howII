@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-justify:distribute;
+}
+
+.foto {
+  border-radius: 10px 5% / 20px;
+  margin: 3rem 3rem 3rem 3rem;
+  text-align: center;
+  width: 200px;
+  height: 300px;
+  border: rgb(246, 173, 180) solid 2px;
+}
+
+.nome {
+  border-bottom: rgb(246, 173, 180) 2px solid;
+}
+
+.header {
+  background: rgba(246, 173, 180, 0.144);
+  color: rgb(82, 82, 82);
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+.logo {
+  border-radius: 50%;
+  border: rgb(246, 173, 180) solid 2px;
+}
+
+.navbaredit {
+  text-align: center;
+  padding-top: 5px;
+  height: 50px;
+  background-color: #F6ADB4;
+  text-align: center;
+}
+
+.list-group-item {
+  background-color: #ffe3e04b;
+}
+
+
+a {
+  color: #313131;
+  text-decoration: none;
+}
+
+
+a:hover {
+  background-color: #a8656c8a;
+  color: black;
+}
+
+a:link 
+{ 
+ text-decoration:none; 
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #F6ADB4;
+
+}
+
+.icones {
+  border-radius: 50%;
+  display: auto;
+}
+
+
+/* Responsivo layout */
+@media screen and (max-width: 720px) {
+  .row, .navbar, .header, .footer {   
+    flex-direction: column;
+  }
+}
